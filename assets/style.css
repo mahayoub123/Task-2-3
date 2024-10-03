@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.squareShape{
+    background-color: #5e2f09;
+    border: 4px solid #ffeb3ba3;
+    width: 92px;
+    height: 92px;
+    margin: 20px;
+    border-radius: 3px;
+}
+.squareBox{
+    display: flex;
+    justify-content: center;
+    border: 3px solid #8e8ec4;
+    border-radius: 2px;
+    margin: 40px;
+}
+.verticalGroupDimention{
+    width: 100%;
+    height: 162px;
+
+}
+.horizantalGroupWidth{
+width:172px
+}
+
+.verticalSquare{
+    flex-direction: column;
+}
+.verticalGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.horizantalGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2a2a;
+}
+.horizantalCenterSquare{
+    align-items: center;
+    justify-content: center;
+}
+.horizantalStartSquare{
+    align-items: flex-start;
+
+}
+.horizantalEndSquare{
+    align-items: flex-end;
+}
+.verticalCenterSquare{
+    align-items: center;
+}
+.verticalStartSquare{
+    align-items: flex-start;
+}
+.verticalEndSquare{
+    align-items: flex-end;
+}
